@@ -1,3 +1,15 @@
 .Header{
-    border:2px solid red;
+    /* border:2px solid red; */
+    height:15vh;
+    background-image: linear-gradient(to right, #7C5242,#7CB6AA);
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+.Header img{
+    border:none;
+    outline: none;
+    width: 100px;
+    margin-left: 2rem;
+
 }

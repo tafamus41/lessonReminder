@@ -1,0 +1,35 @@
+.lessonContainer{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border:2px solid black;
+    border-radius: 30px;
+    width: 95vw;
+    margin: auto;
+    background-image: linear-gradient(to right,#1B012D,#0EBCEA);
+}
+.lessonCard{
+    display: flex;
+    align-items: center;
+    margin:2rem 1rem;
+    gap:2rem;
+    column-gap: 3rem;
+    width:540px;
+}
+.imageContainer img{
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+}
+.card-title{
+    color:orange;
+}
+.card-title span{
+    color:white;
+}
+@media screen and (max-width:740px) {
+ .lessonCard{
+    flex-direction: column;
+ }   
+}
