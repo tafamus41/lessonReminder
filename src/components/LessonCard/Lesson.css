@@ -1,7 +1,7 @@
 .lessonContainer{
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     border:2px solid black;
     border-radius: 30px;
